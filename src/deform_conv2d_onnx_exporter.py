@@ -22,7 +22,7 @@ except ImportError:
 
 __all__ = ["register_deform_conv2d_onnx_op"]
 
-onnx_opset_version = 12
+onnx_opset_version = 16
 
 
 def add(g, lhs, rhs):
